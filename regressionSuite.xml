@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/GAFFARY SOFFT/Pictures/CRMTestAutomationFramework">
+        <classes>
+            <class name="tests.CalendarTest">
+                <methods>
+                    <include name="UserCanOpenLogInPage"/>
+                    <include name="userCanOpenNewEventPage"/>
+                    <include name="userCanClickOnLogOut"/>
+                </methods>
+            </class>
+            <class name="tests.CallTest">
+                <methods>
+                    <include name="UserCanOpenLogInPage"/>
+                    <include name="UserCanOpenNewCallPage"/>
+                    <include name="UserCanOpenCallScriptsPage"/>
+                    <include name="userCanClickOnLogOut"/>
+                </methods>
+            </class>
+            <class name="tests.CasesTest">
+                <methods>
+                    <include name="UserCanOpenLogInPage"/>
+                    <include name="userCanOpenNewCasePage"/>
+                    <include name="userCanOpenFullSearchForm"/>
+                    <include name="userCanClickOnLogOut"/>
+                </methods>
+            </class>
+            <class name="tests.CompaniesTest">
+                <methods>
+                    <include name="UserCanOpenLogInPage"/>
+                    <include name="userCanClickOnCompanyLink"/>
+                    <include name="userCanClickOnLogOut"/>
+                </methods>
+            </class>
+            <class name="tests.ContactsTest">
+                <methods>
+                    <include name="UserCanOpenLogInPage"/>
+                    <include name="userCanClickOnNewContactsLink"/>
+                    <include name="userCanClickOnLogOut"/>
+                </methods>
+            </class>
+            <class name="tests.DealsTest">
+                <methods>
+                    <include name="UserCanOpenLogInPage"/>
+                    <include name="userCanClickOnNewDealsLink"/>
+                    <include name="userCanCreateAnewDeal"/>
+                    <include name="userCanClickOnLogOut"/>
+                </methods>
+            </class>
+            <class name="tests.DocumentsTest">
+                <methods>
+                    <include name="UserCanOpenLogInPage"/>
+                    <include name="UserCanOpenNewDocumentPage"/>
+                    <include name="userCanClickOnLogOut"/>
+                </methods>
+            </class>
+
+            <class name="tests.TasksTest">
+                <methods>
+                    <include name="UserCanOpenLogInPage"/>
+                    <include name="userCanOpenNewTaskPage"/>
+                    <include name="userCanOpenFullSearchFromPage"/>
+                    <include name="userCanClickOnLogOut"/>
+                </methods>
+            </class>
+            <class name="tests.UserRegistrationTest">
+                <methods>
+                    <include name="UserCanOpenLogInPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
