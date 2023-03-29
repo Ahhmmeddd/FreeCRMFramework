@@ -6,7 +6,7 @@ And we are using BDD(cucumber) and DDT frameworks in the project
 
 
 
-#tech Stach:
+# tech Stach:
 
 - java 
 - Maven 
